@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 566px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+.header__logo img {
+  width: 64px;
+  height: 64px;
+}
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 8px;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.12);
+  width: 100%;
+}
+.header__nav--item {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.56);
+  cursor: pointer;
+  font-family: "IRANSansX", "sans-serif";
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.main-description p {
+  margin: 32px 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.56);
+  line-height: 2;
+  font-family: "IRANSansX", "sans-serif";
+  font-size: 0.875rem;
+}
+
+.search {
+  position: relative;
+}
+.search__input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  font-family: "IRANSansX", "sans-serif";
+  padding: 1px 40px 1px 16px;
+  position: relative;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.search__input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+.search__input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+.search__input:hover {
+  border-color: rgba(0, 0, 0, 0.56);
+  cursor: context-menu;
+}
+.search__input:active {
+  border: 1px solid rgb(96, 27, 27);
+}
+.search i {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 20px;
+}
+
+.popular-cities {
+  padding: 32px 0 16px 0;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-family: "IRANSansX", "sans-serif";
+}
+
+.popular-cities__items {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.12);
+}
+.popular-cities__items--item {
+  margin: 12px 0;
+  text-decoration: none;
+  width: 20%;
+  color: rgba(0, 0, 0, 0.56);
+  text-align: center;
+  display: inline-block;
+  line-height: 2;
+  padding: 16px 10px;
+  transition: color ease 0.36s;
+  font-family: "IRANSansX", "sans-serif";
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.popular-cities__items--item:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+}
+.footer .enamad {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.12);
+}
+.footer .enamad a {
+  margin: 14px 0;
+}
+.footer .enamad a img {
+  width: 64px;
+  height: 64px;
+  margin: 14px 0;
+}
+.footer .contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+.footer .contact-us a i {
+  color: rgba(0, 0, 0, 0.56);
+  transition: color ease 0.36s;
+  margin: 22px 0;
+}
+.footer .contact-us a i:hover {
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
