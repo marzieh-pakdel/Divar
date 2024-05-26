@@ -78,8 +78,8 @@
   border-color: rgba(0, 0, 0, 0.56);
   cursor: context-menu;
 }
-.search__input:active {
-  border: 1px solid rgb(96, 27, 27);
+.search__input:focus {
+  outline: 1px solid rgb(96, 27, 27);
 }
 .search i {
   position: absolute;

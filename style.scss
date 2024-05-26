@@ -92,8 +92,8 @@ $second-color: rgba(0, 0, 0, .12);
             cursor: context-menu;
         }
 
-        &:active {
-            border: 1px solid rgb(96, 27, 27);
+        &:focus {
+            outline: 1px solid rgb(96, 27, 27);
         }
     }
 
